@@ -1,0 +1,180 @@
+input:focus {
+    outline: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.title {
+    color: black;
+    font-size: 24px;
+    margin: 0px 0px 0px 50px;
+}
+.navItems a{
+    color: black;
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+}
+header {
+    border-bottom: 1px solid #F1C50E;
+    padding: 20px 0px 20px 0px;
+}
+.bodyColor {
+    background-color: #F1C50E;
+    padding: 150px;
+}
+.the_bg {
+    background: white;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+}
+.popularJ {
+    color: #DB545A;
+    font-size: 48px;
+}
+.description {
+    color: #DB545A;
+    font-size: 20px;
+}
+.img_smile {
+    width: 700px;
+}
+.seeJokes {
+    background: #F1C50E;
+    color: white;
+    padding: 20px 100px 20px 100px;
+}
+.nextOne {
+    margin: 100px 0px 0px 0px;
+}
+.firstOne {
+    margin: 80px 0px 0px 0px;
+}
+.theUser input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px 20px 5px 20px;
+    margin: 10px 0px 50px 0px;
+}
+.thePass input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px 20px 5px 20px;
+}
+.submitRegister {
+    margin-top: 50px;
+    background: #F1C50E;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border: none;
+}
+.anchToLog {
+    margin-top: 50px;
+}
+.anchToLog a{
+    color: #DB545A;
+}
+.the_div_of_joke {
+    background-color: white;
+    padding: 40px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+.titleoFpAGEW {
+    color: #DB545A;
+    font-size: 30px;
+}
+.thePassTWO textarea{
+    resize: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Phones */
+@media only screen and (max-width: 1024px) {
+    .img_smile {
+        width: 400px;
+    }
+    .the_bg {
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .title {
+        margin: 0px;
+    }
+    .navItems a{
+        margin: 0px;
+    }
+    .img_smile {
+        width: 300px;
+    }
+    
+    .the_bg {
+        width: 250px;
+    }
+    .popularJ {
+        font-size: 35px;
+    }
+    .seeJokes {
+        padding: 20px 50px 20px 50px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .title {
+        margin: 0px;
+    }
+    .navItems a{
+        margin: 0px;
+    }
+    .the_bg {
+        width: 400px;
+        margin: 20px 0px 0px -50px;
+    }
+    .tt {
+        margin-left: -100px;
+    }
+    .the_div_of_joke {
+        width: 320px;
+        margin-left: -140px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .title {
+        margin: 0px;
+    }
+    .navItems a{
+        margin: 0px;
+    }
+    .the_bg {
+        width: 350px;
+        margin: 20px 0px 0px 0px;
+    }
+    .tt {
+        margin-left: -150px;
+    }
+    .the_div_of_joke {
+        width: 320px;
+        margin-left: -140px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .title {
+        margin: 0px;
+    }
+    .navItems a{
+        margin: 0px;
+    }
+    .the_bg {
+        width: 290px;
+        margin: 20px 0px 0px 0px;
+    }
+    .tt {
+        margin-left: -150px;
+    }
+    .the_div_of_joke {
+        width: 320px;
+        margin-left: -170px;
+    }
+}
