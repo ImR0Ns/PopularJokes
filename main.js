@@ -58,6 +58,11 @@ var isAuth = (req, res, next) => {
   }
 }
 
+app.use((req, res, next)=>{
+  console.log('yes');
+  next();
+})
+
 //landing_page
 app.get('/', (req, res)=>{
   res.render('index', { name: req.user });
