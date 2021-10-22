@@ -16,7 +16,7 @@ const forMongoose = require("./mongoose/mong");
 const add_joke = require('./mongoose/add_joke');
 
 //connect to mongodb
-var url = procces.env.MONGODB_URI;
+var url = 'mongodb+srv://popularjokes:popularjokes12@cluster0.fe0no.mongodb.net/forum?retryWrites=true&w=majority';
 mongoose.connect(url);
 
 //set engine view

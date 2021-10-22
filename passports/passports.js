@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt')
 const User = require("../mongoose/mong");
 
 //connect to mongodb
-var url = procces.env.MONGODB_URI;;
+var url = 'mongodb+srv://popularjokes:popularjokes12@cluster0.fe0no.mongodb.net/forum?retryWrites=true&w=majority';
 mongoose.connect(url);
 
 var check = (username, password, done) => {
